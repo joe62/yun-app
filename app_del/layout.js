@@ -11,7 +11,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+      <div><h1>Learn Next.js 13!</h1></div>
+        {children}</body>
     </html>
   )
 }
